@@ -1,8 +1,8 @@
 # Summary
 
-A short analysis of objects found by Inception3 (a deep convolutional neural network by Google) in a sample of around ~10k pictures of mine.
+A saturday-and-half-sunday project to find the strangest objects on a sample of around ~10k pictures of mine - using the pre-trained Inception3 deep convolutional neural network by Google.
 
-I specifically look for "unusual" objects, focusing on the labels that score a low count in the Natural Language Corpus Data.
+I specifically look for "unusual" objects, focusing on the objects that score a low count in a natural language corpus.
 
 # High-level process description
 
@@ -49,11 +49,11 @@ The output looks like this (see the file name, the recognised object and the "wo
 <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/readmeFileImages/theProcessLooksLikeThis.png" width="236px"/>
 <br>
 
-You might want to redirect that to a .csv file.
+(You will want to redirect that to a .csv file for further processing.)
 
 I've put the images in three separate directories and run 3 processes in parallel, outputting the results in .csv files.
 
-After a night of processing, I collected the results.
+After a night of processing, I collated together the three .csv files into one for analysis.
 
 # More about ImageNet and convolutional neural networks
 
