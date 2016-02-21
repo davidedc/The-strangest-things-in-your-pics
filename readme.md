@@ -1,6 +1,6 @@
 # Summary
 
-A saturday-and-half-sunday project to find the strangest objects on a sample of around ~10k pictures of mine - using the pre-trained Inception3 deep convolutional network by Google.
+A saturday-and-half-sunday project to find the strangest objects on a sample of around ~10k pictures of mine - using the pre-trained Inception-v3 deep convolutional network by Google.
 
 I specifically look for "unusual" objects, focusing on the objects that score a low count in a natural language corpus.
 
@@ -8,9 +8,9 @@ I specifically look for "unusual" objects, focusing on the objects that score a 
 
 ## Setup
 
-I first prepared the setup for having Inception3 working. Inception3 is a deep convolutional network by Google, which is *already* trained on the ImageNet Large Visual Recognition corpus.
+I first prepared the setup for having Inception-v3 working. Inception-v3 is a deep convolutional network by Google, which is *already* trained on the ImageNet Large Visual Recognition corpus.
 
-Inception3 works on the TensorFlow framework by Google. Setting up the framework as of Feb 2016 is moderately complicated; the installation is simple but the actual running of the real examples requires some heavy stackoverflow and github digging.
+Inception-v3 works on the TensorFlow framework by Google. Setting up the framework as of Feb 2016 is moderately complicated; the installation is simple but the actual running of the real examples requires some heavy stackoverflow and github digging.
 
 Luckily, there is a docker container that works pretty much out of the bos, here: https://hub.docker.com/r/atong01/imagenet-tensorflow/ . So after some half a day of trouble getting TensorFlow to work, I finally used the container and got the process to work in an hour.
 
@@ -180,7 +180,7 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
 
 ## More on found objects
 
-Inception3 processed 9726 images. The most found objects and the least found objects are:
+Inception-v3 processed 9726 images. The most found objects and the least found objects are:
 
 *Most found:*
 pier	390
