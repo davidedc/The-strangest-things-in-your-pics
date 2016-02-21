@@ -1,6 +1,6 @@
 # Summary
 
-A saturday-and-half-sunday project to find the strangest objects on a sample of around ~10k pictures of mine - using the pre-trained Inception3 deep convolutional neural network by Google.
+A saturday-and-half-sunday project to find the strangest objects on a sample of around ~10k pictures of mine - using the pre-trained Inception3 deep convolutional network by Google.
 
 I specifically look for "unusual" objects, focusing on the objects that score a low count in a natural language corpus.
 
@@ -8,7 +8,7 @@ I specifically look for "unusual" objects, focusing on the objects that score a 
 
 ## Setup
 
-I first prepared the setup for having Inception3 working. Inception3 is a deep convolutional neural network by Google, which is *already* trained on the ImageNet Large Visual Recognition corpus.
+I first prepared the setup for having Inception3 working. Inception3 is a deep convolutional network by Google, which is *already* trained on the ImageNet Large Visual Recognition corpus.
 
 Inception3 works on the TensorFlow framework by Google. Setting up the framework as of Feb 2016 is moderately complicated; the installation is simple but the actual running of the real examples requires some heavy stackoverflow and github digging.
 
@@ -55,9 +55,9 @@ I've put the images in three separate directories and run 3 processes in paralle
 
 After a night of processing, I collated together the three .csv files into one for analysis.
 
-# More about ImageNet and convolutional neural networks
+# More about ImageNet and convolutional networks
 
-The ImageNet Large Visual Recognition is a big dataset [Deng et al. 2009] which has been used since 2010 as a benchmark for object recognitions in images. Since 2012, the benchmark has been dominated by convolutional neural networks. Although convolutional neural networks have been around for a long time, there as been incredible progress in the past five years or so in terms of speed of their training, mostly due to the advent of "big data" (which readied the whole IT industry for workflows based on transfer and analysis of huge quantities of data) and the availability of server farms enabled with graphic cards (where both training and operation of these networks could be done fast and cheap).
+The ImageNet Large Visual Recognition is a big dataset [Deng et al. 2009] which has been used since 2010 as a benchmark for object recognitions in images. Since 2012, the benchmark has been dominated by convolutional networks. Although convolutional networks have been around for a long time, there as been incredible progress in the past five years or so in terms of speed of their training, mostly due to the advent of "big data" (which readied the whole IT industry for workflows based on transfer and analysis of huge quantities of data) and the availability of server farms enabled with graphic cards (where both training and operation of these networks could be done fast and cheap).
 
 For a great overview, see any of Yann LeCun's (a key player in the field) videos on the matter e.g. https://www.youtube.com/watch?v=M7smwHwdOIA
 
