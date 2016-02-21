@@ -146,7 +146,7 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  sock  (corpus count: 3748769 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-1898.jpg  "> <br>
  binoculars  (corpus count: 4487365 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-12287.jpg  "> <br>
  
-## Funny miscallisifications 
+## Funny mis-labelings 
  
  warplane  (corpus count: 43421 ) yes but no. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1788.jpg  "> <br>
  colobus  (corpus count: 54191 ). Although there are no colobuses in the picture, the tree looks like the one where a colobus might be. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1573.jpg  "> <br>
