@@ -148,8 +148,8 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  
 ## Funny miscallisifications 
  
- warplane  (corpus count: 43421 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1788.jpg  "> <br>
- colobus  (corpus count: 54191 ). Although there is no primate in the picture, the tree looks like the one where a colobus might be. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1573.jpg  "> <br>
+ warplane  (corpus count: 43421 ) yes but no. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1788.jpg  "> <br>
+ colobus  (corpus count: 54191 ). Although there are no colobuses in the picture, the tree looks like the one where a colobus might be. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1573.jpg  "> <br>
  brassiere  (corpus count: 70860 ). Probably not a brasserie. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-3287.jpg  "> <br>
  mousetrap  (corpus count: 204797 ). Many small mechanical things are classified as mousetraps. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-10318.jpg  "> <br>
  hippopotamus  (corpus count: 223453 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-11588.jpg  "> <br>
