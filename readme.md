@@ -71,7 +71,6 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  toyshop  (corpus count: 35622 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-1184.jpg  "> <br>
  jackfruit  (corpus count: 41792 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-2659.jpg  "> <br>
  jackfruit  (corpus count: 41792 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-2661.jpg  "> <br>
- warplane  (corpus count: 43421 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1788.jpg  "> <br>
  trolleybus  (corpus count: 48586 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-11252.jpg  "> <br>
  axolotl  (corpus count: 57021 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-2607.jpg  "> <br>
  komondor  (corpus count: 67610 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11200.jpg  "> <br>
@@ -146,6 +145,7 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  
 ## Funny miscallisifications 
  
+ warplane  (corpus count: 43421 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1788.jpg  "> <br>
  colobus  (corpus count: 54191 ). Although there is no primate in the picture, the tree looks like the one where a colobus might be. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1573.jpg  "> <br>
  brassiere  (corpus count: 70860 ). Probably not a brasserie. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-3287.jpg  "> <br>
  mousetrap  (corpus count: 204797 ). Many small mechanical things are classified as mousetraps. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-10318.jpg  "> <br>
