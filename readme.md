@@ -44,7 +44,8 @@ Then, form "inside" the container:
 
 This will process all the images in the ```./images1/``` directory.
 
-The output looks like this: ![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+The output looks like this:
+<img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/readmeFileImages/theProcessLooksLikeThis.png" width="472px"/>
 
 You might want to redirect that to a .csv file.
 
