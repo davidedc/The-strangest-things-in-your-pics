@@ -25,9 +25,9 @@ I made three scripts:
 
 2) extractToken.py which filter just *one label* (made of one word only) out of the objects recognition text.
 
-3) howFrequent.py which takes the word of the previous point and looks it up in the "corpus word count" file.
+3) howFrequent.py which takes the word of the previous point and looks it up in the "word corpus count" file.
 
-The three commands piped together give the filename, the object detected with the highest confidence, and the "corpus count" of the found object.
+The three commands piped together give the filename, the object detected with the highest confidence, and the "word corpus count" of the found object.
 
 ## The running part
 
@@ -44,7 +44,7 @@ Then, form "inside" the container:
 
 This will process all the images in the ```./images1/``` directory.
 
-The output looks like this:
+The output looks like this (see the file name, the recognised object and the "word corpus" count of that word):
 <br>
 <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/readmeFileImages/theProcessLooksLikeThis.png" width="236px"/>
 <br>
