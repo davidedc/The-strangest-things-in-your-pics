@@ -158,7 +158,7 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  baboon  (corpus count: 359080 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11597.jpg  "> <br>
  crayfish  (corpus count: 419647 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-10329.jpg  "> <br>
  rotisserie  (corpus count: 459806 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11318.jpg  "> <br>
- barbershop  (corpus count: 481271 ). How would have you classified this one? <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-1424.jpg  "> <br>
+ barbershop  (corpus count: 481271 ). How would you classify this one? <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-1424.jpg  "> <br>
  strainer  (corpus count: 503244 ). (it's the core of an induction coil). <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-12271.jpg  "> <br>
  croquet  (corpus count: 571392 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11808.jpg  "> <br>
  corkscrew  (corpus count: 581475 ) (robotic surgeon, pic I took from a book) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-254.jpg  "> <br>
