@@ -1,12 +1,12 @@
-## Summary
+# Summary
 
 A short analysis of objects found by Inception3 (a deep convolutional neural network by Google) in a sample of around ~10k pictures of mine.
 
 I specifically look for "unusual" objects, focusing on the labels that score a low count in the Natural Language Corpus Data.
 
-## High-level process description
+# High-level process description
 
-# Setup
+## Setup
 
 I first prepared the setup for having Inception3 working. Inception3 is a deep convolutional neural network by Google, which is *already* trained on the ImageNet Large Visual Recognition corpus.
 
@@ -18,7 +18,7 @@ After that, I made an export of around 10k of my pictures.
 
 Finally, I downloaded a file with the 1/3 million most frequent words, all lowercase, with counts, from Peter Norvig's page here http://norvig.com/ngrams/ . This file would allow me to score the "strangeness" of the labels.
 
-# The coding part
+## The coding part
 
 I made three scripts:
 1) runAdjusted.py which runs the object recognition. This script emits in output a text blurb listing the objects found in the picture, with the confidence level. See an example here https://www.tensorflow.org/versions/r0.7/tutorials/image_recognition/index.html
@@ -29,13 +29,13 @@ I made three scripts:
 
 The three commands piped together give the filename, the object detected with the highest confidence, and the "corpus count" of the found object.
 
-# The running part
+## The running part
 
 I've put the images in three separate directories and run 3 processes in parallel, outputting the results in .csv files.
 
 After a night of processing, I collected the results.
 
-# How to actually run this:
+### How to actually run this:
 
 After having the container installed, download this project. From the directory of the project, run:
 
@@ -50,79 +50,18 @@ Then, form "inside" the container:
 
 This will process all the images in the ```./images1/``` directory. You might want to redirect that to a .csv file.
 
-## More about ImageNet and convolutional neural networks
+# More about ImageNet and convolutional neural networks
 
 The ImageNet Large Visual Recognition is a big dataset [Deng et al. 2009] which has been used since 2010 as a benchmark for object recognitions in images. Since 2012, the benchmark has been dominated by convolutional neural networks. Although convolutional neural networks have been around for a long time, there as been incredible progress in the past five years or so in terms of speed of their training, mostly due to the advent of "big data" (which readied the whole IT industry for workflows based on transfer and analysis of huge quantities of data) and the availability of server farms enabled with graphic cards (where both training and operation of these networks could be done fast and cheap).
 
 For a great overview, see any of Yann LeCun's (a key player in the field) videos on the matter e.g. https://www.youtube.com/watch?v=M7smwHwdOIA
 
-## Results
+# Results
 
-# The strangest objects in my pics:
-
-The objects are ordered in decreasing strangeness (an object is more strange if it has a lower count in the Natural Language Corpus Data).
-
-## Summary
-
-A short analysis of objects found by Inception3 (a deep convolutional neural network by Google) in a sample of around ~10k pictures of mine.
-
-I specifically look for "unusual" objects, focusing on the labels that score a low count in the Natural Language Corpus Data.
-
-## High-level process description
-
-# Setup
-
-I first prepared the setup for having Inception3 working. Inception3 is a deep convolutional neural network by Google, which is *already* trained on the ImageNet Large Visual Recognition corpus.
-
-Inception3 works on the TensorFlow framework by Google. Setting up the framework as of Feb 2016 is moderately complicated; the installation is simple but the actual running of the real examples requires some heavy stackoverflow and github digging.
-
-Luckily, there is a docker container that works pretty much out of the bos, here: https://hub.docker.com/r/atong01/imagenet-tensorflow/ . So after some half a day of trouble getting TensorFlow to work, I finally used the container and got the process to work in an hour.
-
-After that, I made an export of around 10k of my pictures.
-
-Finally, I downloaded a file with the 1/3 million most frequent words, all lowercase, with counts, from Peter Norvig's page here http://norvig.com/ngrams/ . This file would allow me to score the "strangeness" of the labels.
-
-# The coding part
-
-I made three scripts:
-1) runAdjusted.py which runs the object recognition. This script emits in output a text blurb listing the objects found in the picture, with the confidence level. See an example here https://www.tensorflow.org/versions/r0.7/tutorials/image_recognition/index.html
-
-2) extractToken.py which filter just *one label* (made of one word only) out of the objects recognition text.
-
-3) howFrequent.py which takes the word of the previous point and looks it up in the "corpus word count" file.
-
-The three commands piped together give the filename, the object detected with the highest confidence, and the "corpus count" of the found object.
-
-# The running part
-
-I've put the images in three separate directories and run 3 processes in parallel, outputting the results in .csv files.
-
-After a night of processing, I collected the results.
-
-# How to actually run this:
-
-After having the container installed, download this project. From the directory of the project, run:
-
-```docker run -it -v $PWD:/root/tmp -v $PWD/images1:/root/tmp/images1 -v $PWD/images2:/root/tmp/images2 -v $PWD/images3:/root/tmp/images3 -v $PWD/images4:/root/tmp/images4 atong01/imagenet-tensorflow```
-
-Then, form "inside" the container:
-
-```cd /root/tmp/```
-```sh ./processAllImages1.sh > resultsImages1.csv```
-
-This will process all the images in the ```./images1/``` directory. You might want to redirect that to a .csv file.
-
-## More about ImageNet and convolutional neural networks
-
-The ImageNet Large Visual Recognition is a big dataset [Deng et al. 2009] which has been used since 2010 as a benchmark for object recognitions in images. Since 2012, the benchmark has been dominated by convolutional neural networks. Although convolutional neural networks have been around for a long time, there as been incredible progress in the past five years or so in terms of speed of their training, mostly due to the advent of "big data" (which readied the whole IT industry for workflows based on transfer and analysis of huge quantities of data) and the availability of server farms enabled with graphic cards (where both training and operation of these networks could be done fast and cheap).
-
-For a great overview, see any of Yann LeCun's (a key player in the field) videos on the matter e.g. https://www.youtube.com/watch?v=M7smwHwdOIA
-
-## Results
-
-# The strangest objects in my pics:
+## The strangest objects in my pics:
 
 The objects are ordered in decreasing strangeness (an object is more strange if it has a lower count in the Natural Language Corpus Data).
+
 
  ashcan  (corpus count: 17521 ) <br> <img src=" ./selectedImages/2-1188.jpg  "> <br>
  consomme  (corpus count: 24689 ) <br> <img src=" ./selectedImages/4-1021.jpg  "> <br>
@@ -206,7 +145,7 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  sock  (corpus count: 3748769 ) <br> <img src=" ./selectedImages/4-1898.jpg  "> <br>
  binoculars  (corpus count: 4487365 ) <br> <img src=" ./selectedImages/2-12287.jpg  "> <br>
  
-# Funny miscallisifications 
+## Funny miscallisifications 
  
  colobus  (corpus count: 54191 ). Although there is no primate in the picture, the tree looks like the one where a colobus might be. <br> <img src=" ./selectedImages/1-1573.jpg  "> <br>
  brassiere  (corpus count: 70860 ). Probably not a brasserie. <br> <img src=" ./selectedImages/1-3287.jpg  "> <br>
@@ -237,7 +176,7 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  limousine  (corpus count: 4007578 ). Many "group pictures" are classified as limousine <br> <img src=" ./selectedImages/1-1193.jpg  "> <br>
  violin  (corpus count: 5327802 ) no no no! <br> <img src=" ./selectedImages/4-1044.jpg  "> <br>
 
-# More on labels
+## More on labels
 
 Inception3 processed 9726 images. The most found objects and the least found objects are:
 
