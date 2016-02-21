@@ -31,12 +31,6 @@ The three commands piped together give the filename, the object detected with th
 
 ## The running part
 
-I've put the images in three separate directories and run 3 processes in parallel, outputting the results in .csv files.
-
-After a night of processing, I collected the results.
-
-### How to actually run this:
-
 After having the container installed, download this project. From the directory of the project, run:
 
 ```docker run -it -v $PWD:/root/tmp -v $PWD/images1:/root/tmp/images1 -v $PWD/images2:/root/tmp/images2 -v $PWD/images3:/root/tmp/images3 -v $PWD/images4:/root/tmp/images4 atong01/imagenet-tensorflow```
@@ -48,7 +42,15 @@ Then, form "inside" the container:
 
 (you can run multiple processes, "processAllImages2" operates on the "images2" directory and so on up to "processAllImages4")
 
-This will process all the images in the ```./images1/``` directory. You might want to redirect that to a .csv file.
+This will process all the images in the ```./images1/``` directory.
+
+The output looks like this: ![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
+You might want to redirect that to a .csv file.
+
+I've put the images in three separate directories and run 3 processes in parallel, outputting the results in .csv files.
+
+After a night of processing, I collected the results.
 
 # More about ImageNet and convolutional neural networks
 
@@ -76,15 +78,15 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  komondor  (corpus count: 67610 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11200.jpg  "> <br>
  kuvasz  (corpus count: 72446 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-12062.jpg  "> <br>
  drumstick  (corpus count: 89753 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-10005.jpg  "> <br>
- snowplow  (corpus count: 96186 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-1878.jpg  "> <br>
- dugong  (corpus count: 103769 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-1256.jpg  "> <br>
+ snowplow  (corpus count: 96186 ). It's actually a police car but come on. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-1878.jpg  "> <br>
+ dugong  (corpus count: 103769 ) it's probably a whale but could be a dugong with some fantasy. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-1256.jpg  "> <br>
  maillot  (corpus count: 111683 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-2307.jpg  "> <br>
- meerkat  (corpus count: 113040 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11993.jpg  "> <br>
+ meerkat  (corpus count: 113040 ) pic of an Argos catalog page. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11993.jpg  "> <br>
  washbasin  (corpus count: 114082 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1094.jpg  "> <br>
  stupa  (corpus count: 117550 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-10084.jpg  "> <br>
  sandbar  (corpus count: 136849 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-2472.jpg  "> <br>
  speedboat  (corpus count: 141990 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-119.jpg  "> <br>
- breastplate  (corpus count: 154648 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-257.jpg  "> <br>
+ breastplate  (corpus count: 154648 ) . still from the video "All is full of love". <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-257.jpg  "> <br>
  triumphal  (corpus count: 155633 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-2081.jpg  "> <br>
  megalith  (corpus count: 163808 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-2219.jpg  "> <br>
  loupe  (corpus count: 168244 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-11428.jpg  "> <br>
@@ -93,7 +95,7 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  airship  (corpus count: 296641 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-10008.jpg  "> <br>
  airship  (corpus count: 296641 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-1089.jpg  "> <br>
  breakwater  (corpus count: 307474 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-10258.jpg  "> <br>
- geyser  (corpus count: 313513 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-11273.jpg  "> <br>
+ geyser  (corpus count: 313513 ) albeit an urban one. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-11273.jpg  "> <br>
  boathouse  (corpus count: 324233 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1854.jpg  "> <br>
  photocopier  (corpus count: 341379 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11471.jpg  "> <br>
  trifle  (corpus count: 349545 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/2-10381.jpg  "> <br>
