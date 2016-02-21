@@ -61,9 +61,7 @@ The ImageNet Large Visual Recognition is a big dataset [Deng et al. 2009] which 
 
 For a great overview, see any of Yann LeCun's (a key player in the field) videos on the matter e.g. https://www.youtube.com/watch?v=M7smwHwdOIA
 
-# Results
-
-## The strangest objects in my pics:
+# Results (the strangest objects in my pics)
 
 The objects are ordered in decreasing strangeness (an object is more strange if it has a lower count in the Natural Language Corpus Data).
 
@@ -180,7 +178,7 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  limousine  (corpus count: 4007578 ). Many "group pictures" are classified as limousine <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1193.jpg  "> <br>
  violin  (corpus count: 5327802 ) no no no! <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-1044.jpg  "> <br>
 
-## More on labels
+## More on found objects
 
 Inception3 processed 9726 images. The most found objects and the least found objects are:
 
