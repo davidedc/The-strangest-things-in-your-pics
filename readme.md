@@ -121,8 +121,8 @@ The objects are ordered in decreasing strangeness (an object is more strange if 
  broccoli  (corpus count: 1625392 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-11619.jpg  "> <br>
  flamingo  (corpus count: 1638181 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-2785.jpg  "> <br>
  joystick  (corpus count: 1687753 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-1028.jpg  "> <br>
- gong  (corpus count: 2128445 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-1100.jpg  "> <br>
- gong  (corpus count: 2128445 ) <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-2085.jpg  "> <br>
+ gong  (corpus count: 2128445 ) not quite but semantically close. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/3-1100.jpg  "> <br>
+ <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/4-2085.jpg  "> <br>
  wig  (corpus count: 2151939 ) highly impressive that a convnet can tell the difference between hair and a wig. <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1433.jpg  "> <br>
  <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-1713.jpg  "> <br>
  <br> <img src="https://raw.githubusercontent.com/davidedc/The-strangest-things-in-your-pics/master/selectedImages/1-2100.jpg  "> <br>
