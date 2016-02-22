@@ -57,7 +57,7 @@ After a night of processing, I collated together the three .csv files into one f
 
 # More about ImageNet and convolutional networks
 
-The ImageNet Large Visual Recognition is a big dataset [Deng et al. 2009] which has been used since 2010 as a benchmark for object recognitions in images. Since 2012, the benchmark has been dominated by convolutional networks. Although convolutional networks have been around for a long time, there as been incredible progress in the past five years or so in terms of speed of their training, mostly due to the advent of "big data" (which readied the whole IT industry for workflows based on transfer and analysis of huge quantities of data) and the availability of server farms enabled with graphic cards (where both training and operation of these networks could be done fast and cheap).
+The ImageNet Large Visual Recognition is a big dataset [Deng et al. 2009] which has been used since 2010 as a benchmark for object recognitions in images. Since 2012, the benchmark has been dominated by convolutional networks. Although convolutional networks have been around for a long time, there has been incredible progress in the past five years or so in terms of speed of their training, mostly due to the advent of "big data" (which readied the whole IT industry for workflows based on transfer and analysis of huge quantities of data) and the availability of server farms enabled with graphic cards (where both training and operation of these networks could be done fast and cheap).
 
 For a great overview, see any of Yann LeCun's (a key player in the field) videos on the matter e.g. https://www.youtube.com/watch?v=M7smwHwdOIA
 
