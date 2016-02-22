@@ -23,7 +23,7 @@ Finally, I downloaded a file with the 1/3 million most frequent words, all lower
 I made three scripts:
 1) runAdjusted.py which runs the object recognition. This script emits in output a text blurb listing the objects found in the picture, with the confidence level. See an example here https://www.tensorflow.org/versions/r0.7/tutorials/image_recognition/index.html
 
-2) extractToken.py which filter just *one label* (made of one word only) out of the objects recognition text.
+2) extractToken.py which filters just *one label* (made of one word only) out of the objects recognition text.
 
 3) howFrequent.py which takes the word of the previous point and looks it up in the "word corpus count" file.
 
