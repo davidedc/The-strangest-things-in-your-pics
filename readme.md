@@ -12,7 +12,7 @@ I first prepared the setup for having Inception-v3 working. Inception-v3 is a de
 
 Inception-v3 works on the TensorFlow framework by Google. Setting up the framework as of Feb 2016 is moderately complicated; the installation is simple but the actual running of the real examples requires some heavy stackoverflow and github digging.
 
-Luckily, there is a docker container that works pretty much out of the bos, here: https://hub.docker.com/r/atong01/imagenet-tensorflow/ . So after some half a day of trouble getting TensorFlow to work, I finally used the container and got the process to work in an hour.
+Luckily, there is a docker container that works pretty much out of the box, here: https://hub.docker.com/r/atong01/imagenet-tensorflow/ . So after some half a day of trouble getting TensorFlow to work, I finally used the container and got the process to work in an hour.
 
 After that, I made an export of around 10k of my pictures.
 
